@@ -27,8 +27,8 @@ Users should be able to:
 
 ### Links
 
--   Solution URL: [GitHub repo](https://github.com/oOOoutsiderOOo/frontend-mentor-url-shortening)
--   Live Site URL: [Vercel](https://frontend-mentor-url-shortening-git-main-ooooutsiderooo.vercel.app/)
+-   Solution URL: [GitHub repo](https://github.com/oOOoutsiderOOo/frontend-mentor-news-page)
+-   Live Site URL: [Vercel](https://frontend-mentor-news-page-ooooutsiderooo.vercel.app/)
 
 ### Built with
 
