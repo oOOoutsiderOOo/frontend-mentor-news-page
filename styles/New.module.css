@@ -1,0 +1,29 @@
+.wrapper {
+    grid-area: 1/3/3/4;
+    background-color: var(--very-dark-blue);
+    padding: 2.5rem 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.title {
+    font-size: 42px;
+    font-weight: 700;
+    color: var(--soft-orange);
+}
+
+.articleTitle {
+    font-size: 18px;
+    font-weight: 800;
+    color: var(--off-white);
+    padding: 1rem 0rem;
+    cursor: pointer;
+}
+.articleTitle:hover {
+    color: var(--soft-orange);
+}
+
+.separator {
+    border-bottom: 1px solid var(--dark-grayish-blue);
+}

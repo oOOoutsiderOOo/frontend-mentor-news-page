@@ -1,0 +1,45 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    grid-area: 1/1/2/3;
+}
+.picture {
+    grid-area: 1/1/2/3;
+}
+.pic {
+    width: auto;
+    height: auto;
+}
+
+.title {
+    grid-area: 2/1/3/2;
+    font-size: 56px;
+    font-weight: 800;
+}
+
+.textContainer {
+    grid-area: 2/2/3/3;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.button {
+    text-transform: uppercase;
+    font-weight: 700;
+    letter-spacing: 0.4em;
+    margin-right: 2rem;
+    background-color: var(--soft-red);
+    color: var(--off-white);
+    border-radius: 0.125rem;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1rem 2rem;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: var(--very-dark-blue);
+}

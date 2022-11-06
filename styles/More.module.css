@@ -1,0 +1,37 @@
+.wrapper {
+    grid-area: 3/1/4/4;
+}
+
+.card {
+    display: grid;
+    grid-template-columns: 33% 67%;
+    gap: 0px;
+    align-items: flex-start;
+}
+
+.image {
+    height: auto;
+    width: auto;
+}
+
+.content {
+    padding-left: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+.number {
+    color: var(--grayish-blue);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+.title {
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.title:hover {
+    color: var(--soft-red);
+}
